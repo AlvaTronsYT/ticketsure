@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/verificadorpro.sol": "IERC20"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/verificadorpro.sol": {
+			"keccak256": "0x42e082485f676785498f74584a393fac7a27c3c565b5e5195202a4c56d8fedbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c946dd4e8db7c1cb61e41ca4e1e6c547b8ddd8905b9df75883eea6d8e02d938",
+				"dweb:/ipfs/QmbqSrKwvWEveDwLdiDHLj3ByPPKBYi6EuapQyJZetetTi"
+			]
+		}
+	},
+	"version": 1
+}
