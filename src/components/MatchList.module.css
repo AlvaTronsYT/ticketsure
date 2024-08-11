@@ -1,0 +1,51 @@
+.list{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.list .division{
+    display: flex;
+}
+
+.list h1{
+    text-align: center;
+    color: white;
+    margin-top: 8rem;
+}
+.list button {
+    height: 4rem;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .list button:hover {
+    background-color: #0056b3;
+  }
+
+  .list h4 {
+    height: 2.5rem;
+    font-size: 20px;
+    color: #555;
+   
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }

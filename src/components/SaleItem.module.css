@@ -1,0 +1,61 @@
+/* SaleItem.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 100%;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.container section {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.container article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container label,h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.container input[type="number"] {
+    width: 5rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.container h3:last-of-type {
+    color: #007bff;
+}
+
+.container button{
+    background-color: green;
+    font-weight: bolder;
+}
+
+.container button:hover{
+    color: white;
+}

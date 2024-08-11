@@ -1,0 +1,32 @@
+/* Match.module.css */
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    max-width: 10rem;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.card .des {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #333;
+    text-align: center;
+}
+
+.des h3{
+    margin: auto;
+    text-align: center;
+}
